@@ -15,10 +15,11 @@
         padding: 5px;
     }
     header nav#contacto span{
-        font-size: auto;
+        font-size: 35px;
         text-align: center;
         width: max-content;
         background-color: white;
+        padding: 5px;
     }
     header nav#contacto{
         width: 100%;
@@ -38,7 +39,7 @@
         border: solid 4px darkred;
         width: max-content;
         font-size: auto;
-        padding: 1px;
+        padding: 5px;
     }
     header nav#contacto i#mail{
         border-top-left-radius: 0;
