@@ -23,7 +23,7 @@
     header nav#contacto{
         width: 100%;
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         justify-content: space-between;
         font-size: 45px;
         background-color: gray;
