@@ -14,12 +14,17 @@
         flex-flow:  row wrap;
         padding: 5px;
     }
+    header nav#contacto span{
+        font-size: auto;
+        text-align: center;
+        width: max-content;
+        background-color: black;
+    }
     header nav#contacto{
         width: 100%;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        padding: 10px 10px;
         font-size: 45px;
         background-color: gray;
         margin-bottom: 5px;
@@ -28,11 +33,12 @@
     header nav#contacto i{
         background-color: darkblue;
         color: white;
-        padding: 30px;
-        font-weight: 900;
-        border-top-left-radius: 25px;
-        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
         border: solid 4px darkred;
+        width: max-content;
+        font-size: auto;
+        padding: 1px;
     }
     header nav#contacto i#mail{
         border-top-left-radius: 0;
