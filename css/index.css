@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media (min-width: 0px){
+    
+    body{
+        background-color: chocolate !important;
+    }
+    header{
+        display: flex;
+        flex-flow:  row wrap;
+        padding: 5px;
+    }
+    header nav#contacto{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 10px 10px;
+        font-size: 45px;
+        background-color: gray;
+        margin-bottom: 5px;
+        border-radius: 10px;
+    }
+    header nav#contacto i{
+        background-color: darkblue;
+        color: white;
+        padding: 30px;
+        font-weight: 900;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: solid 4px darkred;
+    }
+    header nav#contacto i#mail{
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    header button.btn{
+        background-color: darkblue;
+        border: 2px solid black;
+        width: 25%;
+        font-size: 25px;
+        color: white !important;
+        height: max-content;
+        padding: 0;
+        border-radius: 0px;
+        border-left: 2px solid white ;
+        border-top: 2px solid white ;
+        border-bottom: 2px solid white ;
+        border-right: none;
+    }
+    header nav.dropdown-menu.show{
+        background-color: darkred;
+    }
+    header.active{
+        color: white !important;
+    }
+    header .dropdown-item{
+        color: darkgrey;
+        font-weight: 900;
+    }
+    header h1{
+        width: 75%;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        border-radius: 0px !important;
+        border-left: 2px dashed silver;
+        border-top: 2px solid white ;
+        border-bottom: 2px solid white ;
+        border-right: 2px solid white;
+        padding: 0;
+    }
+    main{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        overflow: hidden;
+    }
+    main article{
+        background-color: green;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        box-shadow: inset 10px 10px 10px 10px silver;
+    }
+    main article figure{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-content: center;
+    }
+    main article figure h1{
+        align-self: center;
+        margin-left: 10px;
+    }
+    main article figure img{
+        width: 100px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        border: lightskyblue solid 3px;
+    }
+    main article h2{
+        font-weight: 500;
+    }
+    main article#stack{
+        margin-top: 20px;
+        box-shadow: none;
+    }
+    main article#stack figure{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    main article#stack figure img{
+        width: 250px;
+        margin: 10px;
+        background-color: lightblue;
+    }
+    main article#stack figure figcaption{
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 10px;
+        width: 100%;
+        height: max-content;
+        margin-bottom: 15px;
+    }
+    footer{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: gray;
+        padding: 10px;
+        margin-top: 20px;
+        color: white;
+    }
+    footer h1{
+        width: 100%;
+    }
+    footer ul li{
+        margin-right: 5px;
+        list-style: "💻";
+    }
+}
