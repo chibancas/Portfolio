@@ -16,8 +16,8 @@
         flex-flow:  row wrap;
         padding: 5px;
     }
-    header nav#contacto span{
-        font-size: 35px;
+    footer nav#contacto span{
+        font-size: 30px;
         text-align: center;
         width: max-content;
         background-color: darkgreen;
@@ -34,7 +34,7 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    header nav#contacto{
+    footer nav#contacto{
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
@@ -44,7 +44,7 @@
         margin-bottom: 5px;
         border-radius: 10px;
     }
-    header nav#contacto i{
+    footer nav#contacto i{
         background-color: darkblue;
         color: white;
         border-top-left-radius: 25px;
@@ -57,7 +57,7 @@
         margin-bottom: 5px;
         margin-left: 5px;
     }
-    header nav#contacto i#mail{
+    footer nav#contacto i#mail{
         border-top-left-radius: 0;
         border-bottom-right-radius: 0;
         border-top-right-radius: 25px;
