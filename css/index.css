@@ -64,7 +64,8 @@
         width: 100%;
         justify-content: center;
         overflow: hidden;
-        background-image: url(./../img/giphy.gif);
+        background-image: url(./../img/código.gif);
+        height: max-content;
     }
     main article{
         background-color: green;
@@ -76,11 +77,16 @@
         margin-left: 10px;
         margin-right: 10px;
         border-radius: 15px;
-        margin-bottom: 10px;
+        margin-top: 10px;
         color: white;
         text-align: center;
-        box-shadow:silver 1px 100px;
-        border: solid 2px white;
+        border: solid 2px black;
+        height: max-content;
+        box-shadow:
+        1px 2px white
+        2px white
+        3px white
+
     }
     main article figure{
         display: flex;
@@ -88,6 +94,7 @@
         justify-content: space-around;
         align-content: center;
         width: 100%;
+        height: max-content;
     }
     main article figure h1{
         align-self: center;
@@ -100,38 +107,7 @@
         padding: 5px;
         border: lightskyblue solid 3px;
     }
-    main article h2{
-        font-weight: 500;
-    }
-    main article#stack{
-        box-shadow: none;
-        text-align: center;
-        width: max-content;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        animation-duration: 2s;
-        animation-name: color;
-    }
-    @keyframes color {
-        from{
-            font-size: auto;
-        }
-        to{
-            font-size: 200px;
-        }
 
-    }
-    main article#stack ul li{
-        list-style: "✔️";
-        padding: 15px;
-        width: max-content;
-        font-size: 20px;
-        border: 1px solid gray;
-        background-color: rgba(0, 0, 0, 0.362);
-    }
-    main article#stack ul li::marker{
-        font-size: 35px
-    }
     footer{
         display: flex;
         flex-flow: row wrap;
@@ -139,7 +115,6 @@
         padding: 10px;
         margin-top: 20px;
         color: white;
-        position: fixed;
         bottom: 0;
         width: 100%;
         justify-content: center;
