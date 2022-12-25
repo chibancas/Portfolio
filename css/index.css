@@ -123,6 +123,7 @@
         background-color: black;
         color: white;
         text-align: left;
+        border: solid 10px gold;
     }
     footer{
         display: flex;
