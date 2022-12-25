@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 @media (min-width: 0px){
     header nav#tablet{
@@ -80,13 +80,8 @@
         margin-top: 10px;
         color: white;
         text-align: center;
-        border: solid 2px black;
         height: max-content;
-        box-shadow:
-        1px 2px white
-        2px white
-        3px white
-
+        box-shadow: inset 5px 5px 10px 5px white
     }
     main article figure{
         display: flex;
@@ -107,7 +102,9 @@
         padding: 5px;
         border: lightskyblue solid 3px;
     }
-
+    main article#stack{
+        margin-bottom: 10px;
+    }
     footer{
         display: flex;
         flex-flow: row wrap;
