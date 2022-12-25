@@ -102,8 +102,27 @@
         padding: 5px;
         border: lightskyblue solid 3px;
     }
+    main article#stack ul li::marker{
+        content:"✓";
+        animation: taadaa 2s infinite;
+        text-shadow: 5px 5px white;
+    }
+    main article#stack ul li{
+        padding-left: 10px;
+    }
+    @keyframes taadaa {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
     main article#stack{
         margin-bottom: 10px;
+        background-color: black;
+        color: white;
+        text-align: left;
     }
     footer{
         display: flex;
@@ -115,6 +134,8 @@
         bottom: 0;
         width: 100%;
         justify-content: center;
+        align-content: center;
+        height: max-content;
     }
     footer nav#contacto span{
         font-size: 30px;
