@@ -109,6 +109,8 @@
     }
     main article#stack ul li{
         padding-left: 10px;
+        overflow:auto !important;
+        white-space: nowrap;
     }
     @keyframes taadaa {
         0% {
