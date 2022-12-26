@@ -223,18 +223,34 @@
     }
 }
 @media (min-width: 600px){
-    header nav#contacto{
+    header{
+    background: url(./../img/bootsrap.png), url(./../img/html-css.png), url(./../img/wordpress.png);
+    background-position: top left, top center, top right;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: contain, contain ,contain;
+    }
+    header button{
+        display: none !important
+    }
+    footer nav#contacto{
         display: none;
     }
     header h1{
-        width: 100%;
+        width: max-content;
         border: none;
+        margin: 0 auto;
+        padding: 15px;
+        font-weight: 900;
+        border-radius: 15px !important;
+        border: solid black 2px;
+        font-size: 36px;
+        box-shadow: 0 0 10px 3px black;
+        background-color: white;
+        color: black;
+        opacity: .1;
     }
-    header button{
-        display: none !important;
-    }
-    header nav.dropdownmenu{
-        display: flex !important;
-        position: relative !important;
+    header 
+    header nav#tablet{
+        display: flex;
     }
 }
