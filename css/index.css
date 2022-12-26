@@ -101,6 +101,7 @@
         border-radius: 15px;
         padding: 5px;
         border: lightskyblue solid 3px;
+        filter: blur(.1px);
     }
     main article#stack ul li::marker{
         content:"✓";
@@ -111,6 +112,7 @@
         padding-left: 10px;
         overflow:auto !important;
         white-space: nowrap;
+        animation-delay: 1s;
     }
     @keyframes taadaa {
         0% {
@@ -125,8 +127,17 @@
         background-color: black;
         color: white;
         text-align: left;
-        border: solid 10px gold;
+        border: 5px dashed black;
+        animation: borde-cambiante 3s infinite;
     }
+    @keyframes borde-cambiante {
+        from {
+          border-color: black;
+        }
+        to {
+          border-color: white;
+        }
+      }
     footer{
         display: flex;
         flex-flow: row wrap;
@@ -134,11 +145,9 @@
         padding: 10px;
         margin-top: 20px;
         color: white;
-        bottom: 0;
         width: 100%;
         justify-content: center;
         align-content: center;
-        height: max-content;
     }
     footer nav#contacto span{
         font-size: 30px;
