@@ -117,7 +117,6 @@
         content:"✓";
         text-shadow: 7px 3px white;
         animation: taadaa 3s infinite;
-        animation-delay: .5s;
     }
     main article#stack ul li{
         padding-left: 10px;
@@ -136,15 +135,15 @@
         background-color: black;
         color: white;
         text-align: left;
-        border: 5px dashed black;
+        border: 0px solid white;
         animation: borde-cambiante 3s infinite;
     }
     @keyframes borde-cambiante {
         from {
-          border-color: black;
+            border: solid 0px white;
         }
         to {
-          border-color: white;
+            border: 10px double black;
         }
       }
     footer{
