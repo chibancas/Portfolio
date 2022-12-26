@@ -105,14 +105,13 @@
     }
     main article#stack ul li::marker{
         content:"✓";
-        animation: taadaa 2s infinite;
-        text-shadow: 5px 5px white;
+        text-shadow: 7px 3px white;
+        animation: taadaa 3s infinite;
+        animation-delay: .5s;
     }
     main article#stack ul li{
         padding-left: 10px;
-        overflow:auto !important;
         white-space: nowrap;
-        animation-delay: 1s;
     }
     @keyframes taadaa {
         0% {
@@ -195,7 +194,8 @@
         border-bottom-right-radius: 0;
         border-top-right-radius: 25px;
         border-bottom-left-radius: 25px;
-        margin-right: 5px;
+        margin-left: 5px;
+        margin-right: 0px;
     }
 
     footer h1{
