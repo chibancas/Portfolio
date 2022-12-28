@@ -248,6 +248,23 @@ a{
     footer nav#contacto{
         display: none;
     }
+    main section article#stack{
+        display: none;
+    }
+    main section article#stack-tablet{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        box-shadow: none !important;
+    }
+    main section article#stack-tablet section article{
+        box-shadow: none !important;
+    }
+    main section article#stack-tablet section article figure img{
+        width: 50% !important;
+        height: auto !important;
+    }
     header h1{
         width: max-content;
         border: none;
